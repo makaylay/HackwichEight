@@ -17,7 +17,7 @@ class ViewController: UIViewController {
     let initialLocation = CLLocation(latitude: 21.361888, longitude: -158.055725)
     let restaurantOne = CLLocationCoordinate2D(latitude: 21.346470, longitude: -158.080098)
     //set region around UHWO to 1000m
-    let regionRadius: CLLocationDistance = 1000
+    let regionRadius: CLLocationDistance = 10000
     
     override func viewDidLoad() {
         super.viewDidLoad()
